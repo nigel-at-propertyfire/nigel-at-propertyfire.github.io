@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>PFP Property Fire Protection - Contact</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="/css/animate.css">
+
+	<link rel="stylesheet" href="/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="/css/magnific-popup.css">
+
+	<link rel="stylesheet" href="/css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="/css/jquery.timepicker.css">
+
+	<link rel="stylesheet" href="/css/flaticon.css">
+	<link rel="stylesheet" href="/css/style.css">
+
+	<style>
+
+		.form-group {
+			position: relative;
+			border: 1px solid transparent;
+		}
+
+		.form-group.error {
+			border: 1px solid var(--danger);
+		}
+
+		.form-group .error-icon {
+			display: none;
+			height: 18px;
+			position: absolute;
+			right: 10px;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+
+		.form-group.error .error-icon {
+			display: block;
+		}
+
+
+	</style>
+
+</head>
+
+<body>
+	<div class="pt-3 pb-3">
+		<div class="container">
+			<div class="row d-flex justify-content-between align-items-start align-items-center px-3 px-md-0">
+				<div class="col-md-4 d-flex mb-2 mb-md-0">
+					<a class="navbar-brand d-flex align-items-center" href="index">
+						<img src="/images/PFP_logo.jpg" height="50">
+						<span class="ml-2">PFP<small>Property Fire Protection</small></span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container d-flex align-items-center">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+				aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa fa-bars"></span> Menu
+			</button>
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item"><a href="/index" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+					<li class="nav-item"><a href="/services" class="nav-link">Services</a></li>
+					<li class="nav-item active"><a href="/contact" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- END nav -->
+
+	<section class="hero-wrap hero-wrap-2" style="background-image: url('/images/contact.jpg');"
+		data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text align-items-end justify-content-start">
+				<div class="col-md-9 ftco-animate pb-5">
+					<p class="breadcrumbs">
+						<span class="mr-2">
+							<a href="/index">Home <i class="fa fa-chevron-right"></i></a>
+						</span> 
+					</p>
+					<h1 class="mb-3 bread">Contact</h1>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+		<div class="container">
+
+			<div class="row justify-content-center mb-5 pb-3">
+				<div class="col heading-section text-center ftco-animate">
+					<span class="subheading">Contact us</span>
+					<h2 class="mb-4">Message us for more details</h2>
+					<p>Send us an email or use the contact form below</p>
+				</div>
+			</div>
+		
+			<div class="row justify-content-center dbox mb-5">
+				<div class="col d-flex justify-content-center align-items-center">
+					<div class="icon d-flex align-items-center justify-content-center m-0 mr-2">
+						<span class="fa fa-paper-plane"></span>
+					</div>
+					<div class="ml-2">
+						<p><a href="mailto:sales@propertyfire.co.uk">sales@propertyfire.co.uk</a></p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row block-9">
+				<div class="col">
+					<div class="p-4 p-md-5 contact-form">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" name="name" id="name" class="form-control" placeholder="Your Name">
+									<img class="error-icon" src="/images/circle-exclamation-solid.svg">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<input type="text" name="email" id="email" class="form-control" placeholder="Your Email">
+									<img class="error-icon" src="/images/circle-exclamation-solid.svg">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<input type="text" name="subject" id="subject" class="form-control" placeholder="Subject">
+									<img class="error-icon" src="/images/circle-exclamation-solid.svg">
+								</div>
+							</div>
+							<div class="col-md-12">
+								<div class="form-group">
+									<textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+									<img class="error-icon" src="/images/circle-exclamation-solid.svg">
+								</div>
+							</div>
+							<div class="col-md-12 ">
+								<div class="form-group">
+									<input value="Send Message" type="submit" class="btn btn-primary py-3 px-5" onclick="sendMessage()">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="ftco-footer">
+		<div class="container pb-4">
+			<div class="row">
+
+				<div class="col-lg-4 col-md-6">
+					<div class="ftco-footer-widget">
+						<h2 class="ftco-heading-2">Links</h2>
+						<div class="d-flex">
+							<ul class="list-unstyled mr-md-4">
+								<li><a href="/"><span class="fa fa-chevron-right mr-2"></span>Home</a></li>
+								<li><a href="/about"><span class="fa fa-chevron-right mr-2"></span>About Us</a></li>
+								<li><a href="/services"><span class="fa fa-chevron-right mr-2"></span>Services</a></li>
+								<li><a href="/contact"><span class="fa fa-chevron-right mr-2"></span>Contact</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg col-md-6">
+					<div class="ftco-footer-widget">
+						<h2 class="ftco-heading-2">Services</h2>
+						<div class="d-flex">
+							<ul class="list-unstyled mr-4">
+								<li><a href="/service/fire-alarm"><span class="fa fa-chevron-right mr-2"></span>Fire Alarms</a></li>
+								<li><a href="/service/emergency-lighting"><span class="fa fa-chevron-right mr-2"></span>Emergency Lighting</a></li>
+								<li><a href="/service/aov"><span class="fa fa-chevron-right mr-2"></span>AOVs</a></li>
+							</ul>
+							<ul class="list-unstyled ml-4">
+								<li><a href="/service/fire-doors"><span class="fa fa-chevron-right mr-2"></span>Fire Doors</a></li>
+								<li><a href="/service/fire-extinguishers"><span class="fa fa-chevron-right mr-2"></span>Fire Extinguishers</a></li>
+								<li><a href="/service/risk-assessment"><span class="fa fa-chevron-right mr-2"></span>Risk Assessment</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Message Popup -->
+	<div class="modal fade" id="successModal" tabindex="-1" role="dialog" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered" role="document">
+			<div class="modal-content">
+				<div class="modal-body text-center">
+					<h3>Message Sent</h3>
+					<p class="my-2">We'll get back to you as quick as we can</p>
+				</div>
+				<div class="modal-footer bg-white">
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- loader -->
+	<div id="ftco-loader" class="show fullscreen">
+		<svg class="circular" width="48px" height="48px">
+			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"stroke="#F96D00" />
+		</svg>
+	</div>
+
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/jquery-migrate-3.0.1.min.js"></script>
+	<script src="/js/popper.min.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/jquery.easing.1.3.js"></script>
+	<script src="/js/jquery.waypoints.min.js"></script>
+	<script src="/js/jquery.stellar.min.js"></script>
+	<script src="/js/jquery.magnific-popup.min.js"></script>
+	<script src="/js/jquery.animateNumber.min.js"></script>
+	<script src="/js/bootstrap-datepicker.js"></script>
+	<script src="/js/jquery.timepicker.min.js"></script>
+	<script src="/js/scrollax.min.js"></script>
+
+	<script src="/js/main.js"></script>
+
+	<script>
+
+		// DOM Elements
+		const nameEl = document.getElementById('name');
+		const emailEl = document.getElementById('email');
+		const subjectEl = document.getElementById('subject');
+		const messageEl = document.getElementById('message');
+
+		// Send Message - Contact Form
+		function sendMessage() {
+
+			// Get Message Detais, Validate
+			let message = getMessageDetails();
+			let isValid = validateMessage(message);
+
+			// Invalid... Return Early
+			if(!isValid) return
+
+			// Valid Data... Post The Data
+			const xhr = new XMLHttpRequest();
+			xhr.open("POST", "https://submit-form.com/0NAcT2Oel");
+			xhr.setRequestHeader("Content-Type", "application/json");
+			xhr.setRequestHeader("Accept", "application/json");
+			xhr.onload = messageCallback
+			xhr.send(JSON.stringify(message));
+
+		}
+
+		// Get Message Details
+		function getMessageDetails() {
+			return {
+				name: nameEl.value,
+				email: emailEl.value,
+				subject: subjectEl.value,
+				message: messageEl.value,
+			}
+		}
+
+		// Validate Message
+		function validateMessage(message) {
+
+			// Validate all... use "&& allValid" last because we want to make sure we validate all elemetns, even if the previous element is invalid i.e. FALSE
+			let allValid = true;
+			allValid = validateMessageElement(message.name, nameEl) && allValid;
+			allValid = validateMessageElement(message.email, emailEl) && allValid;
+			allValid = validateMessageElement(message.subject, subjectEl) && allValid;
+			allValid = validateMessageElement(message.message, messageEl) && allValid;
+			return allValid;
+
+		}
+
+		// Validate Single Message Elements
+		function validateMessageElement(val, el) {
+
+			let group = el.parentElement;
+
+			if(val == null || val.trim() === '') {
+				group.classList.add('error')
+				return false;
+			}
+			else { 
+				group.classList.remove('error')
+				return true;
+			}
+			
+		}
+
+		// Send Message Callback
+		function messageCallback() {
+
+			// Remove Any Error Classes
+			nameEl.parentElement.classList.remove('error');
+			emailEl.parentElement.classList.remove('error');
+			subjectEl.parentElement.classList.remove('error');
+			messageEl.parentElement.classList.remove('error');
+
+			// Reset Values
+			nameEl.value = '';
+			emailEl.value = '';
+			subjectEl.value = '';
+			messageEl.value = '';
+
+			// Show Success Modal
+			$("#successModal").modal()
+
+			console.log(JSON.parse(this.responseText))	
+		}
+
+    </script>
+
+</body>
+
+</html>
