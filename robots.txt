@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://propertyfire.co.uk/sitemap.xml
